@@ -1,0 +1,221 @@
+body {
+    overflow: y;
+}
+
+body {
+    margin: 0em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-color: #4b4b4b;
+    /*background: url('/img/index.png');
+    background-attachment: fixed;
+    background-position: bottom left;*/
+    background-color: #4b4b4b;
+    /*background-repeat: no-repeat;*/
+}
+article{
+    text-align: center;
+}
+
+.header{
+    position: fixed;
+    min-height: 3em;
+    max-height: 3em;
+    top: 0em;
+    width: 100%;
+    color: white;
+    background-color: #3b3b3b;
+}
+
+
+#head{
+    width: 2.5em;
+    height: 2.5em;
+    padding: 0,2%;
+    margin-top: 0.2em;
+}
+
+#titlelog{
+    margin-top: 2em;
+    font-size: 5em;
+}
+
+#sign{
+    font-family: "Noto Serif";
+    color: #fff;
+    text-decoration: none;
+}
+
+#signup{
+    cursor: pointer;
+}
+
+#log{
+    font-family: "Noto Serif";
+    color: #fff;
+    text-decoration: none;
+}
+
+h1{
+    color: #fff;
+    font-family: "Noto Serif";
+    font-size: 4em;
+}
+
+#buttons{
+    float: right;
+    margin-right: 10em;
+    cursor: pointer;
+}
+
+#a{
+    text-decoration: none;
+}
+#b{
+    width: 22em;
+    border-radius: 20em;
+    background-color: #fff;
+    color: #000;
+    transition: background-color 1s ease;
+}
+#b:hover{
+    background-color: #1b1b1b;
+}
+#c{
+    color: #000;
+    transition: color 1s ease;
+    font-size: 2em;
+}
+#c:hover{
+    color: #fff;
+}
+
+#d{
+    text-decoration: none;
+}
+
+#e{
+    right: 0%;
+    width: 22em;
+    border-radius: 20em;
+    background-color: #fff;
+    color: #000;
+    transition: background-color 1s ease;
+}
+#e:hover{
+    background-color: #1b1b1b;
+}
+
+#f{
+    color: #000;
+    transition: color 1s ease;
+    font-size: 2em;
+}
+
+#f:hover{
+    color: #fff;
+}
+
+#vinyl{
+    width: 35em;
+    height: 35em;
+    z-index: 3;
+    position: fixed;
+    border-left: 0em;
+    border-bottom: 0em;
+    bottom: 0em;
+}
+
+#titlelog{
+    font-size: 4em;
+}
+
+/*#name{
+    height: 40px;
+    width: 250px;
+    border-radius: 40px;
+}
+
+#password{
+    height: 40px;
+    width: 250px;
+    border-radius: 40px;
+}
+
+#button{
+    height: 40px;
+    width: 210px;
+    border-radius: 40px;
+    margin-bottom: 2%;
+}*/
+
+
+#user{
+    background-color: #fff;
+    border-radius: 2.5em;
+    align-items: center;
+    width: 2em;
+    height: 2.5em;
+}
+#name{
+    height: 2.5em;
+    width: 14em;
+    border-radius: 2.5em;
+    margin-right: 1em;
+}
+
+#password{
+    height: 2.5em;
+    width: 14em;
+    border-radius: 2.5em;
+    margin-right: 1em;
+}
+
+#confirm{
+    height: 2.5em;
+    width: 14em;
+    border-radius: 2.5em;
+}
+
+#button{
+    height: 2.5em;
+    width: 11em;
+    border-radius: 2.5em;
+}
+
+.footer{
+    /*opacity: 0.5;*/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+    position: fixed;
+    min-height: 3em;
+    max-height: 3em;
+    left: 0em;
+    bottom: 0em;
+    width: 100%;
+    color: white;
+    background-color: #3b3b3b;
+    text-align: center;
+    z-index: 2;
+}
+
+@media (max-width: 767px) {
+    #title{
+        font-size: 2em;
+    }
+    #titlelog{
+        margin-top: 2em;
+        font-size: 3em;
+    }
+    #buttons{
+        margin-right: 5em;
+    }
+    #b{
+        width: 14em;
+    }
+    #e{
+        width: 14em;
+    }
+    #vinil {
+      display: none;
+    }
+  }
+
